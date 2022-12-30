@@ -3,7 +3,7 @@
     padding: 0%;
 }
 
-section {
+#top {
 
     height: 30%;
     width: 100%;
@@ -27,11 +27,21 @@ h1 {
     font-size: 70px;
     font-weight: 700;
     text-align: center;
-    color: rgb(78, 190, 241);
+    color: rgb(139, 133, 133);
     padding-top: 200px;
 
 
 }
+
+#form {
+    margin: 0% 20% 10% 20%;
+}
+
+.form {
+    padding: 10% 20%;
+}
+
+
 
 footer {
     height: 60px;
@@ -41,6 +51,8 @@ footer {
     text-align: center;
     padding-top: 30px;
 }
+
+
 
 p {
     text-align: center;
@@ -59,4 +71,47 @@ p {
     margin-left: 40%;
 
 
+}
+
+.content {
+    display: flex;
+    margin-left: 10%;
+}
+
+.content div {
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.content p {
+    margin: 0%;
+    padding: 0%;
+}
+
+.content1 {
+    margin-left: 100px;
+}
+
+input[type=Submit] {
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+
+}
+
+input[type=email] {
+    width: 60%;
+    border: none;
+    padding: 12px 20px;
+    margin: 0;
+
+}
+
+form {
+    margin: 0px;
+    padding: 0%;
+    background-color: rgb(131, 168, 187);
 }
